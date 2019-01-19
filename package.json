@@ -2,6 +2,10 @@
   "name": "cheerful-nigerians",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.5.0",
+    "node": "8.11.1"
+  },
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

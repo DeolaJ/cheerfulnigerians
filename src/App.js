@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import classes from './App.css';
-import Nav from '../src/components/Nav/Nav';
 import Section from '../src/components/Section/Section.js';
 import Wrapper from '../src/components/hoc/Wrapper';
+import Header from '../src/components/Header/Header';
 
 class App extends Component {
   render() {
     console.log('[App.js] inside render');
     return (
       <div>
-        <Nav />
+        <Header />
         <Section />
       </div>
     );

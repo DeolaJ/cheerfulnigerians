@@ -25,12 +25,12 @@ class App extends Component {
     activePage: ''
   }
 
-  changePage = (event) => {
-    this.state.pages.map((page, index) => {
-      this.setState({activePage: `${page.name}`})
-    })
-    console.log(this.state.activePage)
-  }
+  // changePage = (event) => {
+  //   this.state.pages.map((page, index) => {
+  //     this.setState({activePage: `${page.name}`})
+  //   })
+  //   console.log(this.state.activePage)
+  // }
 
   render() {
     console.log('[App.js] inside render');

@@ -4,6 +4,7 @@
     height: 70px;
     background-color: transparent;
     padding: 20px 0;
+    position: absolute;
 }
 
 .nav > div {

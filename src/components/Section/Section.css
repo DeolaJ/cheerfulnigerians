@@ -1,4 +1,11 @@
 .section {
-    padding: 30px 50px;
-    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+}
+
+.section .next {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translateY(-50%);
 }

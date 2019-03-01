@@ -1,20 +1,12 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import classes from './Section.css'
 
-class Section extends PureComponent {
-
-    constructor(props) {
-        super(props);
-        console.log('yes inside section');
-    }
-
-    render () {
-        return (
+const Section = (props) => {
+    return (
             <div className={classes.section}>
-                <h2>This is a new header</h2>
+                {props.children}
             </div>
         )
-    }
 }
 
 export default Section;

@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import Nav from '../Nav/Nav';
 import classes from './Header.css';
 
 class Header extends PureComponent {
@@ -19,7 +18,6 @@ class Header extends PureComponent {
     render() {
         return (
             <header className={classes.header}>
-                <Nav />
                 <div className={classes.header_body}>
                     <h2>
                         We are Cheerful Nigerians
